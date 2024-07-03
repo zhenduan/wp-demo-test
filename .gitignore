@@ -1,0 +1,79 @@
+# Node modules and dependencies
+node_modules/
+vendor/
+
+# Sass cache
+.sass-cache/
+
+# Cache and temporary files
+.cache/
+*.tmp
+*.temp
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Composer files
+composer.lock
+
+# npm and yarn lock files
+package-lock.json
+yarn.lock
+
+# Compiled files
+style.css.map
+script.js.map
+
+# Build and distribution directories
+dist/
+build/
+
+# Other caches and temporary directories
+tmp/
+cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignored files for deployment tools
+sftp-config.json
+deploy-config.json
+
+# Ignore WordPress core files and directories
+/wp-admin/
+/wp-includes/
+
+# Ignore wp-content directories
+wp-content/uploads/
+wp-content/plugins/
+wp-content/cache/
+wp-content/upgrade/
+
+# Ignore WordPress configuration files
+wp-config.php
+
+# Ignore other files that should not be in the repository
+error_log
+logs/
+*.sql
+*.sql.gz
+*.sqlite
+
+
+# ignore hot reload related files
+/package.json
+/bs-config.js
